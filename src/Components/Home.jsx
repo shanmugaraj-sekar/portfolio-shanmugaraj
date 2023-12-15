@@ -4,7 +4,7 @@ import profile from "../img/shanmugaraj-profile.jpg";
 
 export default function Home() {
   return (
-    <div className="container-fluid home">
+    <div className="container-fluid home " id="home">
       <div className="container w-75 h-100">
         <div className="row h-100">
           <div className="col-md-6 order-md-2 d-flex flex-column justify-content-center align-items-center">

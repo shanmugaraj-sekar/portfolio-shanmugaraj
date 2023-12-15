@@ -1,0 +1,112 @@
+.work {
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.work span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    padding-top: 50px;
+    color: #818cf8;
+
+}
+
+.project {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    transition-duration: 1000ms;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+.project-row {
+    background-color: rgb(255, 255, 255);
+    justify-content: space-evenly;
+    display: flex;
+    width: 75%;
+    height: 250px;
+
+}
+
+
+@media only screen and (max-width:790px) {
+
+    .project-row {
+        width: 90%;
+        margin-bottom: 40px;
+    }
+
+    .project {
+        padding-bottom: 0%;
+
+
+    }
+
+    .work span {
+        font-size: 30px;
+    }
+
+    .project-des {
+        padding-bottom: 20px;
+        gap: 8px;
+    }
+
+
+
+}
+
+.project-img {
+    border-radius: 20px;
+
+}
+
+.project-img img {
+    width: 100%;
+    height: 250px;
+}
+
+
+.project-des {
+    background-color: rgb(255, 255, 255);
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+}
+
+.project-des button {
+    background-color: #818cf8;
+    border: none;
+    margin: 0%;
+}
+
+.project-des button:hover {
+    background-color: #818cf8;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.project-des h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 0%;
+
+}
+
+.project-des p {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
