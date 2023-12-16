@@ -157,7 +157,7 @@
 /* #skill */
 
 .skill-con {
-    margin-top: -50px;
+    margin-top: 50px;
 }
 
 .skill-img {
@@ -188,10 +188,6 @@
         margin-bottom: -30px;
     }
 
-    .skill-con {
-        margin-top: 50px;
-    }
-
     .skill-head {
         padding-right: 0%;
         padding: 0%;
@@ -199,9 +195,18 @@
 
 }
 
-@media only screen and (max-width:920px) {
+@media only screen and (max-width:330px) {
     .skill-con {
-        margin-top: 50px;
+        margin-top: 0px !important;
+        margin-bottom: 50px;
+    }
+
+    .skill-con div {
+        text-align: center;
+    }
+
+    .skill-sec {
+        margin-top: 20px;
     }
 
 }

@@ -18,9 +18,16 @@ export default function Home() {
             <p className="hero-des pt-6">
               Hi, I'm Shanmugaraj. A passionate Front-end React Developer
             </p>
-            <div className="d-flex">
-              <i className="bi bi-github home-share"></i>
-              <i className="bi bi-linkedin home-share"></i>
+            <div className="d-flex gap-4 h4">
+              <a href="https://github.com/shanmugaraj-sekar" target="_black">
+                <i className="bi bi-github home-share"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/shanmugaraj-sekar/"
+                target="_black"
+              >
+                <i className="bi bi-linkedin home-share"></i>
+              </a>
             </div>
           </div>
         </div>

@@ -26,7 +26,6 @@
         width: 90% !important;
         padding: 15px;
     }
-
 }
 
 
@@ -60,5 +59,15 @@
         align-items: center;
     }
 
+
+}
+
+@media only screen and (min-width:460px) and (max-width:820px) {
+
+    .about-img {
+        width: 220px;
+        height: 220px;
+
+    }
 
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import logo from "../img/icon-portfolio.png";
+import "../style/home.css";
 
 const NavBar = () => {
   return (
@@ -12,7 +13,7 @@ const NavBar = () => {
       className="fixed-top shadow"
     >
       <Navbar.Brand href="#home" className="ps-10 ps-3">
-        <h6>Shanmugaraj</h6>
+        <h6 className="nav-txt">Shanmugaraj</h6>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav" className="pe-5">
