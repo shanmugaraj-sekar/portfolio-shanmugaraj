@@ -9,24 +9,22 @@ import "../style/work.css";
 
 export default function Skill() {
   return (
-    <div className="container-fluid skill-con">
-      <div className="container">
-        <div className="d-flex justify-content-center skill-head">
-          Tech Stack
+    <div className=" skill-con  d-flex flex-wrap align-items-center">
+      <div>
+        <p className="skill-head">Tech Stack </p>
+      </div>
+      <div className=" d-flex skill-p">
+        <div className="skill-sec">
+          <img className="skill-img" src={html} title="HTML5" />
         </div>
-        <div className="d-flex flex-wrap justify-content-evenly pt-5 ">
-          <div className="shadow-lg bg-light skill-sec">
-            <img className="skill-img" src={html} title="HTML5" />
-          </div>
-          <div className="shadow-lg bg-light skill-sec">
-            <img className="skill-img" src={css} title="CSS3" />
-          </div>
-          <div className="shadow-lg bg-light skill-sec">
-            <img className="skill-img" src={js} title="JAVASCRIPT" />
-          </div>
-          <div className="shadow-lg bg-light skill-sec">
-            <img className="skill-img" src={react} title="REACT JS" />
-          </div>
+        <div className="skill-sec">
+          <img className="skill-img" src={css} title="CSS3" />
+        </div>
+        <div className="skill-sec">
+          <img className="skill-img" src={js} title="JAVASCRIPT" />
+        </div>
+        <div className="skill-sec">
+          <img className="skill-img" src={react} title="REACT JS" />
         </div>
       </div>
     </div>

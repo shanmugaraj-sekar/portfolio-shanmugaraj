@@ -1,6 +1,6 @@
 .about {
     height: fit-content;
-    background-color: #EEEEEE;
+    background-color: #f9f9f9;
     padding-bottom: 50px;
     padding-top: 50px;
     width: 100%;
@@ -13,7 +13,7 @@
     background-color: rgb(255, 255, 255);
     padding: 40px;
     width: 75%;
-
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
 }
 
 .about-sec h1 {

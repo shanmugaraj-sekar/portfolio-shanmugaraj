@@ -15,7 +15,7 @@
 .footer p {
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
-    color: #ffffff;
+    color: #f9f9f9;
     font-weight: 700;
 }
 
@@ -61,9 +61,56 @@
 
 .home {
     height: 100vh;
-    background-color: #EEEEEE;
+    background-color: #f9f9f9;
+
 }
 
+.home-row {
+    height: 65vh;
+}
+
+@media only screen and (max-width:770px) {
+    .home {
+        height: fit-content;
+    }
+
+    .home-con {
+        width: 90%;
+    }
+
+
+    .home-row {
+        height: fit-content;
+    }
+
+
+
+}
+
+@media only screen and (min-width:450px) and (max-width:820px) {
+    .portfolio-img {
+        width: 270px !important;
+        height: 270px !important;
+    }
+
+    .hero-title {
+        font-size: 40px;
+        padding-top: 50px;
+    }
+
+    .home-con {
+        width: 90% !important;
+        height: auto;
+    }
+
+    .home-row {
+        height: auto;
+    }
+
+    .home {
+        height: auto;
+    }
+}
 
 .hero-title {
     font-family: 'Poppins', sans-serif;
@@ -72,14 +119,16 @@
 }
 
 .home-con {
-    width: 75%;
+    width: 75% !important;
+    padding-top: 100px;
+
+    /* height: 100vh; */
 }
 
 @media only screen and (max-width:450px) {
     .hero-title {
-        font-size: 50px;
+        font-size: 40px !important;
         padding-top: 10px;
-        margin-top: -200px;
     }
 
     .hero-des {
@@ -88,6 +137,8 @@
 
     .portfolio-img {
         margin-top: -20px;
+        margin-left: 0px !important;
+
     }
 
     .home-con {
@@ -120,6 +171,7 @@
     width: 400px;
     height: 400px;
     object-fit: cover;
+    margin-left: 100px;
 
 }
 

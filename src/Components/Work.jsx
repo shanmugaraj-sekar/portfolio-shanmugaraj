@@ -1,36 +1,20 @@
 import React from "react";
 import Projects from "./Projects";
 import "../style/work.css";
-
+import evoke from "../img/ecommerce-website-evoke.png";
 export default function () {
   return (
     <div className="container-fluid work" id="projects">
       <span>My Works</span>
       <Projects
-        image={
-          "https://www.stefantopalovic.com/static/media/car-rental-full.c58b37da333d73238fdd.webp"
-        }
-        title={"Project title"}
-        lang={"html"}
+        image={evoke}
+        title={"E-Commerce"}
+        lang={"HTML | CSS"}
         des={
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitatio."
+          "Crafted a chic dress store website using HTML and CSS for a stylish and user-friendly online shopping experience. seamlessly blending elegant aesthetics with intuitive user experience for a delightful online shopping journey."
         }
-      />
-      <Projects
-        image={"https://source.unsplash.com/500x300"}
-        title={"Project title"}
-        lang={"html"}
-        des={
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitatio."
-        }
-      />{" "}
-      <Projects
-        image={"https://source.unsplash.com/500x300"}
-        title={"Project title"}
-        lang={"html"}
-        des={
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitatio."
-        }
+        code={"https://github.com/shanmugaraj-sekar/ecommerce-website-evoke"}
+        prev={"https://ecommerce-website-evoke.vercel.app/index.html"}
       />
     </div>
   );

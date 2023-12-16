@@ -7,9 +7,9 @@ const NavBar = () => {
     <Navbar
       collapseOnSelect
       expand="lg"
-      bg="dark"
-      variant="dark"
-      className="fixed-top"
+      bg="light"
+      variant="light"
+      className="fixed-top shadow"
     >
       <Navbar.Brand href="#home" className="ps-10 ps-3">
         <h6>Shanmugaraj</h6>
