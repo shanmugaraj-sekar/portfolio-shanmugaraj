@@ -75,7 +75,7 @@
 }
 
 .home-row {
-    height: 65vh;
+    height: 90vh;
 }
 
 @media only screen and (max-width:770px) {
@@ -89,7 +89,10 @@
 
 
     .home-row {
-        height: fit-content;
+        height: auto;
+        gap: 50px;
+        margin-top: 50px !important;
+        margin-bottom: 50px;
     }
 
 

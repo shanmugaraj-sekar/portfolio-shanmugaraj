@@ -29,13 +29,13 @@ export default function Home() {
                 <i className="bi bi-linkedin home-share"></i>
               </a>
             </div>
+
+            <div className="col-md-12 d-flex ">
+              <Skill />
+            </div>
           </div>
         </div>
-        <div className="row h-25 p-0 m-0 d-flex align-items-center">
-          <div className="col-md-12 d-flex ">
-            <Skill />
-          </div>
-        </div>
+        <div className="row h-25 p-0 m-0 d-flex align-items-center"></div>
       </div>
     </div>
   );
