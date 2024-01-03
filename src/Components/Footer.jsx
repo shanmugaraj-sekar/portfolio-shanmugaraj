@@ -6,10 +6,10 @@ function Footer() {
     <div className=" container-fluid bg-black footer" id="contact">
       <p className="mb-0 ">Shanmugaraj</p>
       <div className="social-links mt-3 d-flex justify-content-center gap-3 p-2">
-        <a href="https://www.linkedin.com/in/shanmugaraj-sekar/">
+        <a href="https://www.linkedin.com/in/shanmugaraj-sekar/" target="_blank" rel="linked in">
           <i className="bi bi-linkedin social"></i>
         </a>
-        <a href="https://github.com/shanmugaraj-sekar">
+        <a href="https://github.com/shanmugaraj-sekar" target="_blank" rel="github">
           <i className="bi bi-github social"></i>
         </a>
       </div>

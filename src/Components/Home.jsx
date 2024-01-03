@@ -35,7 +35,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="row h-25 p-0 m-0 d-flex align-items-center"></div>
       </div>
     </div>
   );
