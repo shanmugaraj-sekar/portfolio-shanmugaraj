@@ -17,7 +17,7 @@ export default function Projects({ image, title, des, lang, code, prev }) {
             <p>{des}</p>
           </>
           <>
-            <p className="w-50 bg-light p-1">{lang}</p>
+            <p className=" bg-light p-2">{lang}</p>
           </>
           <div className="d-flex gap-3">
             <a href={code} target="_blank">

@@ -3,6 +3,7 @@ import html from "../img/icons/html-icon.png";
 import css from "../img/icons/css-icon.png";
 import js from "../img/icons/js-icon.png";
 import react from "../img/icons/react-icon.png";
+import tailwind from "../img/icons/tailwind-icon.png"
 import "../style/work.css";
 
 // css are in Work.css
@@ -25,6 +26,9 @@ export default function Skill() {
         </div>
         <div className="skill-sec">
           <img className="skill-img" src={react} title="REACT JS" />
+        </div>
+        <div className="skill-sec">
+          <img className="skill-img" src={tailwind} title="TailwindCss" />
         </div>
       </div>
     </div>

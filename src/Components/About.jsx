@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import about from "../img/shanmugaraj-profile.jpg";
 import "../style/about.css";
-import { useSpring, animated } from "react-spring";
 
 export default function About() {
   return (
